@@ -1,0 +1,9 @@
+ở bài 2, em không rõ là đề bài có yêu cầu nhập k từ client không nên em làm luôn 2 trường hợp
+    TH1 : k là khoảng số lớn nhất mà tổng dãy liên tiếp có được
+        + bài 2 Boima's algorithm 
+        + bài 2 Kadane's algorithm
+    TH2 : k được nhập từ client
+        + bài 2 Boima's algorithm nêys k là được client nhập
+
+
+note : nếu cô đang phân vân Boima là ai, thì đó chính là em (Cao Hoàng Phước Bảo), em thường dùng biệt danh là Boima
