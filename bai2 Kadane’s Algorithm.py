@@ -24,11 +24,8 @@ def Kmax(a, KichCo):
     print("tổng giá trị liên tiếp lớn nhất là %d" % (maxf))
     print("k =",i-s)
  
- 
-a = []
 n = int(input())
-for i in range(n):
-    a.append(int(input()))
+a = list(map(int, input("nhập các phần tử a : ").split()))
 
 Kmax(a, len(a))
 

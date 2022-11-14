@@ -1,7 +1,7 @@
-a, ln, t, k, n = [], [], 0, 0, int(input())
+n, ln, t, k, a = int(input("nhập n : ")), [], 0, 0,list(map(int, input("nhập các phần tử a :").split()))
 
-for i in range(n):                           
-    a.append(int(input()))
+"""for i in range(n):                           
+    a.append(int(input()))"""
 
 for kc in range(len(a),1,-1):  
     for sk in range(0,(len(a)-kc)+1,1): 
@@ -17,4 +17,4 @@ for kc in range(len(a),1,-1):
 print("có k=",k,"phần tử liên tiếp thì được giá trị lớn nhất là",ln[0])
 
 #Cao Hoang Phuoc Bao - Boima
-#tất cả code trên được viết theo Boima's algorithm , chính là thuận toán nhà làm của Cao Hoàng Phước Bảo
+#tất cả code trên được viết theo Boima's algorithm , chính là thuật toán nhà làm của Cao Hoàng Phước Bảo

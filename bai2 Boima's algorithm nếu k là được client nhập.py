@@ -1,7 +1,7 @@
-a, ln, t, k, n = [], [], 0, int(input()), int(input())
+n, k, ln, t, a =  int(input("nhập n ",)), int(input("nhập k ",)), [], 0, list(map(int, input("nhập các phần tử a :",).split()))
 
-for i in range(n):                           
-    a.append(int(input()))
+"""for i in range(n):                           
+    a.append(int(input()))"""
 
 for sk in range(0,(len(a)-k)+1,1): 
     for i in range(sk,sk+k,1): 
