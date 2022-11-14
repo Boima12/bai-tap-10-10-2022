@@ -4,7 +4,7 @@ ct = 0
 
 while ct == 0:
     if n < 2 or n > 10**7:
-        print("vui lòng nhập n sao cho 2 <= n <= 10^7")
+        print("vui lòng nhập n sao cho 2 <= n <= 10^7",)
         n = int(input())
     elif n >= 2 and n <= 10**7:
         ct += 1
